@@ -31,6 +31,8 @@ description: "The Constitution of the Athenians or the Athenian Constitution (Gr
   \ Ἀθηναίων πολιτεία, Athenaion Politeia; Latin: Atheniensium Respublica) is a work\
   \ by Aristotle or one of his students. It was preserved on two leaves of a papyrus\
   \ codex discovered at Oxyrhynchus, Egypt in 1879.\n From Wikipedia (CC BY-SA)."
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/26095#The-Athenian-Constitution
 gutenberg_issued: '2008-07-21'
 gutenberg_type: Text
 identifiers:
