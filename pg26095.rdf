@@ -1,253 +1,237 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:cc="http://web.resource.org/cc/"
 >
   <pgterms:ebook rdf:about="ebooks/26095">
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/26095/26095-h/26095-h.htm">
-        <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-20T21:50:20</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">174344</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1c0e1e92592b4760b58e4db4f526d756">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">130</pgterms:downloads>
-    <marcrel:trl>
-      <pgterms:agent rdf:about="2009/agents/4780">
-        <pgterms:name>Kenyon, Frederic G. (Frederic George), Sir</pgterms:name>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1863</pgterms:birthdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Frederic_G._Kenyon"/>
-        <pgterms:alias>Kenyon, Frederic George, Sir</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1952</pgterms:deathdate>
-        <pgterms:alias>Kenyon, F. G. (Frederic George), Sir</pgterms:alias>
-      </pgterms:agent>
-    </marcrel:trl>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N16e5e91997f3401e90b650c22f7b85fb">
-        <rdf:value>Classical literature</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N77948b1e18e54ae69e6a0ec87c08f32d">
+      <rdf:Description rdf:nodeID="N66c9537c5b12469d996ebf7990f799f1">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>PA</rdf:value>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nae69b7c1f9064ae6b0e6ff5e5c504430">
-        <rdf:value>Constitutional history -- Athens (Greece)</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
+    <dcterms:license rdf:resource="license"/>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/26095/26095.zip">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57625</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26095.kindle.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">289487</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-20T22:48:14</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N596f7b028a6447bf83f99414c11592ea">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          <rdf:Description rdf:nodeID="N6f23c36c85ca4deba61818220887a009">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:29:00.352226</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N33a708181cd04a829d0eacfe16898893">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Classical literature</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N3dc3f1e0288347d68da04cba6ced46a3">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/26095/26095-h/26095-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-24T10:04:20</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd9fc30280fa44ccc8c8ee514762ed4c6">
+          <rdf:Description rdf:nodeID="N73bc1d02cab84f0c98a3034343551f4b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">174345</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/26095/26095.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164463</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-24T10:03:38</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6affe94a1da9473a81612281777e11fc">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N606fa4deebe94705837abda912fd4c3c">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Athens (Greece) -- Politics and government -- Early works to 1800</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N00544d4541a2421d8abfc20ee36bacb0">
-        <rdf:value>JC</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
-      </rdf:Description>
-    </dcterms:subject>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26095.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">123080</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26095.kindle.images">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N49fedcb6914e4aaa865595065ec2a39b">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          <rdf:Description rdf:nodeID="N8c6d193e788b4949a0d805fa34137651">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T01:18:15.549338</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:28:59.702236</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">289499</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26095.txt.utf-8">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26095.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64599</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na05096c22b714fa2a81b2b8f46c700fa">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="Nae4e3f4161fb43bdb33c91ebfc597c27">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164430</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T01:18:13.305581</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:28:59.059247</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26095.rdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13362</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N93cddd76cea148ea876cd761a2761e95">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:20:13.003215</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-21</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26095.txt.utf-8">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:28:58.598264</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164435</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0ddf162dd3cd46b8833a4ea8917cb4ad">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/2747">
-        <pgterms:name>Aristotle</pgterms:name>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-322</pgterms:deathdate>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-384</pgterms:birthdate>
-        <pgterms:alias>Aristoteles</pgterms:alias>
         <pgterms:alias>Αριστοτέλης</pgterms:alias>
         <pgterms:webpage rdf:resource="http://el.wikipedia.org/wiki/%CE%91%CF%81%CE%B9%CF%83%CF%84%CE%BF%CF%84%CE%AD%CE%BB%CE%B7%CF%82"/>
+        <pgterms:alias>Aristoteles</pgterms:alias>
+        <pgterms:name>Aristotle</pgterms:name>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-322</pgterms:deathdate>
         <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Aristotle"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-384</pgterms:birthdate>
       </pgterms:agent>
     </dcterms:creator>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N97486ca222ec4079a3d1e7cee67f2eaa">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+    <marcrel:trl>
+      <pgterms:agent rdf:about="2009/agents/4780">
+        <pgterms:alias>Kenyon, F. G. (Frederic George), Sir</pgterms:alias>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1952</pgterms:deathdate>
+        <pgterms:name>Kenyon, Frederic G. (Frederic George), Sir</pgterms:name>
+        <pgterms:alias>Kenyon, Frederic George, Sir</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Frederic_G._Kenyon"/>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1863</pgterms:birthdate>
+      </pgterms:agent>
+    </marcrel:trl>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26095.epub.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4e08b4a3fd714c3fa632419b629e8ff4">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T02:28:58.950247</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64599</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>The Athenian Constitution</dcterms:title>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Ne5cc1651bef24a6abce7d4a8d21a4600">
+        <rdf:value>Constitutional history -- Greece -- Athens -- To 146 B.C.</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
-    </dcterms:language>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26095.plucker">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N94aae93b14754d508491eac8deb1bd8d">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T09:34:48.409030</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89450</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/26095/26095-pdf.pdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">879450</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-20T22:46:52</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N3cf43b7d4baf4478857c3805af9f4d8e">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26095.qioo">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">119530</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nca111290f2eb4ed68ba795aeac1f17ae">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T09:34:46.717726</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/26095/26095-h.zip">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59181</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nb1d045c29806457bbb066a28678df43b">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-20T22:48:16</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6d7d59b96e9542ca96653c36e457a068">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
+    </dcterms:subject>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:type>
-      <rdf:Description rdf:nodeID="Nb08644bdabd84ea4b23c7d52b09c4f81">
+      <rdf:Description rdf:nodeID="Nccbe7cb87a6c4c21b2f919a3fe34f65f">
         <rdf:value>Text</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
       </rdf:Description>
     </dcterms:type>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/26095/26095-pdf.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/26095/26095-h.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N176aa931d25d4ffb82a22a0cedbe3b0a">
+          <rdf:Description rdf:nodeID="N6bf31559b13748caad947a480c3dff96">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">849470</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-20T22:48:16</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59179</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N01c8cde2c0be460ab35c99b430512348">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="Nf3b75ae883734566841fdc951ce71a12">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-24T10:19:42</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:title>The Athenian Constitution</dcterms:title>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/26095/26095.txt">
-        <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">164462</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-07-20T21:50:20</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/26095/26095.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N06b114e2619f49b4adc89972ca1fe2a0">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="Nd8e78b362efa4cb49e391a4f125a2d07">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26095.epub.noimages">
         <dcterms:isFormatOf rdf:resource="ebooks/26095"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N23f21610b5704bc194f64ee11bbb8839">
+          <rdf:Description rdf:nodeID="N264ffae735e04773a37e4fef0c39f804">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">77288</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T01:18:14.214678</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-01-24T10:19:42</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">57622</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N715555434c524eb7902e4ae8ac1d639e">
+        <rdf:value>JC</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Na0b75187eb3c48f7a78f6e4004cc67b5">
+        <rdf:value>Athens (Greece) -- Politics and government -- Early works to 1800</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Aristotle">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
   <rdf:Description rdf:about="http://el.wikipedia.org/wiki/%CE%91%CF%81%CE%B9%CF%83%CF%84%CE%BF%CF%84%CE%AD%CE%BB%CE%B7%CF%82">
     <dcterms:description>el.wikipedia</dcterms:description>
   </rdf:Description>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Frederic_G._Kenyon">
-    <dcterms:description>en.wikipedia</dcterms:description>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Aristotle">
     <dcterms:description>en.wikipedia</dcterms:description>
   </rdf:Description>
 </rdf:RDF>
